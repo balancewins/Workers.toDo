@@ -41,7 +41,7 @@ class WorkersAddForm extends Component{
                            value={name}
                            onChange={this.onValueChange}
                            required />
-                    <input type="text" 
+                    <input type="number" 
                            className="form-control new-post-label"
                            placeholder="З/П в $?"
                            name="salary"
